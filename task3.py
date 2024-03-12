@@ -39,7 +39,14 @@ while at_goal == 0:
         jump()
     else:
         move()
-
+def jump():   
+        turn_left()
+        move()
+        turn_right()
+        move()
+        turn_right()
+        move()
+        turn_left(
 
 
 

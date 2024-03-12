@@ -33,7 +33,12 @@ while at_goal() == 0:
         while at_goal() == 1:
             done()
         
-
+# we can also use this
+while at_goal == 0:
+    if wall_in_front():
+        jump()
+    else:
+        move()
 
 
 
